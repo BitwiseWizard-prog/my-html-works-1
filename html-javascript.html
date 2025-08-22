@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>My First JavaScript</p>
+    <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">Click me to display data and time</button>
+
+    <!-- javascript can change content-->
+
+    <button type="button" onclick="myFunction()">Click Me!</button>
+
+
+    <p id="demo">This is a demostration</p>
+
+    <script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML="Hello JavaScript";
+            /*-- javascript can change style --*/
+            document.getElementById("demo").style.fontSize="25px";
+            document.getElementById("demo").style.color="red";
+            document.getElementById("demo").style.color="yellow";
+        }
+    </script>
+</body>
+</html>

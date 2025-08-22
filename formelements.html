@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="fname">first Name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+
+    <!-- select element(Drop-Down box)-->
+     <label for="cars">Choose a car:</label>
+     <select id="cars" name="cars" size="3">
+        <option value="volvo">Volo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">fiat</option>
+        <option value="audi" selected>Audi</option><br>
+     </select>
+
+     <!-- text area-->
+      <textarea name="Massage" style="width: 200px; height:600px">The cat was playing in the gardan</textarea>
+
+      <!-- button-->
+
+      <button type="button" onclick="alert('hello world')">click me</button>
+
+      <!-- fieldest and legend-->
+       <form>
+  <fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+
+</body>
+</html>
